@@ -27,3 +27,4 @@ KIMI.md
 *.log
 *.pem
 *.key
+.memory/
