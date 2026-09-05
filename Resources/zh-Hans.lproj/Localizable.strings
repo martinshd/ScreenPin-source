@@ -1,0 +1,49 @@
+/* ScreenPin 中文翻译。key 即英文开发语言文案（与源码中的 L(...) 调用一致）。 */
+
+/* 菜单栏菜单 */
+"Snip (⌃⌥X)" = "截图（⌃⌥X）";
+"Close All Pins" = "关闭所有贴图";
+"How to Use…" = "使用说明…";
+"Quit ScreenPin" = "退出 ScreenPin";
+
+/* 使用说明弹窗 */
+"ScreenPin Guide" = "ScreenPin 使用说明";
+"This app has no main window or Dock icon — it lives in the menu bar as a ✂ icon at the top right.\n\n⌃⌥X Snip: freezes the screen first, then drag to select (even pull-down menus can be captured). The image pins in place and is copied to the clipboard. ESC cancels while selecting.\nAnnotate: B pen, A arrow, T text (click to place; long text wraps automatically), C cycles colors; or click the ✕ button at the top-left of the pin.\nEnter confirms and steps out layer by layer: while typing = commit text, in annotation mode = exit annotation (back to dragging), on a plain pin = finish and close.\nESC cancels and discards: while typing = discard this text, in annotation mode = exit and discard the strokes made this round, on a plain pin = discard the pin.\n⌘S save to Desktop, ⇧⌘S save and copy the file path instead, ⌘C copy (annotations included), ⌘Z undo last stroke, ⌘W discard. Annotations sync to the clipboard after every stroke — just ⌘V.\nRight-click a pin: colors, opacity, click-through.\n\nScreen Recording permission is required on first snip." = "本 App 没有主窗口和 Dock 图标，启动后只在屏幕右上角菜单栏显示 ✂ 图标。\n\n⌃⌥X 框选抠图：先定格屏幕再框选（下拉菜单也能截），松手后图像原地贴屏并自动复制到剪贴板；框选中 ESC 取消\n标注：B 画笔、A 箭头、T 文字（单击落点输入，超宽自动换行），C 循环换色；也可点左上角「✕ 退出标注」\nEnter 确认并逐层退出：文字输入中＝提交，标注模式＝退出标注恢复拖动，普通贴图＝确认完成并关闭\nESC 取消并丢弃：文字输入中＝取消本次输入，标注模式＝退出并丢弃本次画的标记，普通贴图＝丢弃贴图\n⌘S 保存桌面　⇧⌘S 保存桌面并把文件路径写入剪贴板　⌘C 复制（均含标注）　⌘Z 撤销一笔　⌘W 直接丢弃；标注后剪贴板自动更新，直接 ⌘V 即可\n右键贴图：换颜色、调透明度、点击穿透\n\n首次抠图需要「屏幕录制」权限。";
+"Got It" = "知道了";
+"Grant Screen Recording" = "去授权屏幕录制";
+
+/* 权限与错误提示 */
+"Screen Recording Permission Required" = "需要「屏幕录制」权限";
+"ScreenPin needs Screen Recording permission to snip. Enable it in System Settings; if it still does not work after granting, restart the app." = "ScreenPin 需要屏幕录制权限才能抠图。请在系统设置中勾选 ScreenPin；授权后如仍不生效，请重启 App。";
+"Open System Settings" = "打开系统设置";
+"Cancel" = "取消";
+"Snip Failed" = "截图失败";
+"No screen recording permission" = "没有屏幕录制权限";
+"No matching display found" = "未找到对应的显示器";
+"Selection is outside all displays" = "选区不在任何屏幕范围内";
+
+/* 贴图右键菜单 */
+"Save to Desktop" = "保存到桌面";
+"Save to Desktop & Copy Path" = "保存到桌面并复制路径";
+"Copy to Clipboard" = "复制到剪贴板";
+"Annotate" = "标注";
+"Pen" = "画笔";
+"Arrow" = "箭头";
+"Text" = "文字";
+"Exit Annotation (Back to Dragging)" = "退出标注（恢复拖动）";
+"Undo Last Stroke" = "撤销上一笔";
+"Clear All Annotations" = "清除全部标注";
+"Opacity" = "透明度";
+"Click Through" = "点击穿透";
+"Close" = "关闭";
+
+/* 标注颜色 */
+"Red" = "红";
+"Yellow" = "黄";
+"Green" = "绿";
+"Blue" = "蓝";
+"Black" = "黑";
+"White" = "白";
+
+/* 标注模式界面 */
+"✕ Exit Annotation" = "✕ 退出标注";
